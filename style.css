@@ -1,0 +1,925 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+/* Logo kiri atas */
+.logo-kiri {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-kiri img {
+  height: 50px;
+  width: auto;
+}
+
+/* Logo kanan atas */
+.logo-kanan {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-kanan img {
+  height: 70px;
+  width: auto;
+}
+
+.logo-text {
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.logo-text h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.logo-text p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.logo a {
+  font-size: 45px;
+  font-weight: 800;
+  font-family: courier;
+  color: #ffffff;
+  margin-left: 20px;
+  z-index: 5;
+  flex-shrink: 0; /* Prevent text from shrinking */
+  max-width: 400px; /* Limit text width */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.judul-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.judul-section h2 {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 28px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.isi {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.isi ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.isi ul li {
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+/* Responsive styling untuk gambar di dalam .isi */
+.isi img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lokasi-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.lokasi-section h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
+.map-container iframe {
+  width: 90%;
+  max-width: 900px;
+  height: 500px;
+  border: 0;
+}
+
+.visi-misi-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.visi-misi-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.visi-misi-content h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.visi-misi-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.visi-misi-content hr {
+  border: 1px solid #ffffff;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.image-side {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-side img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.struktur-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.struktur-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.struktur-img {
+  max-width: 70%;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
+}
+
+.hamburger.active i {
+  transform: rotate(90deg);
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: #FFCCE1;
+  z-index: 1;
+  border-bottom: 1px solid #fff;
+  align-items: center;
+  padding: 0 20px;
+}
+
+nav .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 10px 0;
+}
+
+/* Logo container untuk desktop */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ubah ke space-between untuk memisahkan logo kiri dan kanan */
+  width: 100%; /* Tambah width 100% */
+  z-index: 10;
+  margin-bottom: 10px;
+}
+
+/* Header section */
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 60px;
+}
+
+/* Header Text */
+.logo a {
+  font-size: 45px;
+  font-weight: 800;
+  font-family: courier;
+  color: #ffffff;
+  z-index: 5;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  white-space: nowrap; /* Prevent text wrapping */
+  flex-shrink: 0; /* Prevent text from shrinking */
+}
+
+/* Menu */
+.menu {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-shrink: 0; /* Prevent menu from shrinking */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #000;
+}
+
+/* produk unggulan */
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 24px;
+  color: #000;
+  width: 100%;
+  line-height: 50px;
+}
+
+/* Produk */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #FFCCE1;
+  color: #ffffff;
+}
+
+.produk-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.produk-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.produk-section p {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.produk-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.produk-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.produk-item h3 {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+  padding: 10px 0;
+  margin: 0;
+  color: #000;
+}
+
+.produk-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/* KEGIATAN */
+.kegiatan-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.kegiatan-section h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.kegiatan-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.kegiatan-item {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 280px;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.kegiatan-item:hover {
+  transform: translateY(-5px);
+}
+
+.kegiatan-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.kegiatan-item h3 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #000;
+}
+
+.kegiatan-item p {
+  font-size: 14px;
+  color: #000;
+}
+
+/* Kontak */
+
+.kontak-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.kontak-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.kontak-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.kontak-item {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  text-align: left;
+  gap: 15px;
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.kontak-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.kontak-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.kontak-item:hover {
+  transform: translateY(-5px);
+}
+
+/* FOOTER */
+footer {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+footer .wrapper {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* RESPONSIVE UNTUK HP & TABLET */
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* Hamburger Menu */
+  .hamburger {
+    display: block;
+  }
+
+  /* Menu navigasi */
+  .menu {
+    float: none;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: #8aa624;
+    transition: left 0.3s ease;
+    z-index: 999;
+  }
+
+  .menu.active {
+    left: 0;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  nav ul li {
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  nav ul li a {
+    padding: 15px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  /* Logo container untuk mobile */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    width: auto; /* Reset width untuk mobile */
+  }
+
+  /* Logo kiri & kanan di tengah */
+  .logo-kiri,
+  .logo-kanan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-kiri img,
+  .logo-kanan img {
+    height: 40px;
+    width: auto;
+  }
+
+  /* Logo text */
+  .logo a {
+    font-size: 24px;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  /* Navigation layout */
+  nav {
+    line-height: normal;
+    padding: 10px 0;
+  }
+
+  nav .wrapper {
+    align-items: center;
+  }
+
+  /* Logo container untuk mobile */
+  .logo-container {
+    align-self: center;
+    margin-bottom: 10px;
+  }
+
+  /* Header section untuk mobile */
+  .header-section {
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+  }
+
+  /* Header Text */
+  .logo a {
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    height: auto;
+    white-space: normal; /* Allow text wrapping on mobile */
+  }
+
+  /* Menu */
+  .menu {
+    width: 100%;
+    margin-left: 0;
+    display: block;
+    height: auto;
+  }
+
+  /* Section improvements */
+  section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .kolom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Typography */
+  h2 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .judul-section h2 {
+    font-size: 24px;
+  }
+
+  /* Responsive images in .isi section */
+  .isi img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+  }
+
+  /* Struktur organisasi */
+  .struktur-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Produk jadi 1 kolom */
+  .produk-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .produk-item {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  /* Visi misi jadi vertikal */
+  .visi-misi-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 10px;
+  }
+
+  .visi-misi-content,
+  .image-side {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .visi-misi-content h3 {
+    font-size: 20px;
+  }
+
+  .visi-misi-content p {
+    font-size: 15px;
+  }
+
+  /* Kegiatan jadi 1 kolom */
+  .kegiatan-grid {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .kegiatan-item {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .kegiatan-item h3 {
+    font-size: 18px;
+  }
+
+  .kegiatan-item p {
+    font-size: 13px;
+  }
+
+  /* Kontak */
+  .kontak-info {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .kontak-item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .kontak-item p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* Peta */
+  .map-container iframe {
+    height: 350px;
+  }
+
+  /* General text improvements */
+  .isi {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .produk-section p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 0 10px;
+  }
+
+  nav {
+    padding: 8px 0;
+  }
+
+  .logo a {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    height: auto;
+    white-space: normal; /* Allow text wrapping on mobile */
+  }
+
+  .logo-kiri img,
+  .logo-kanan img {
+    height: 35px;
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .judul-section h2 {
+    font-size: 20px;
+  }
+
+  .produk-section h2,
+  .kegiatan-section h2,
+  .kontak-section h2 {
+    font-size: 24px;
+  }
+
+  .produk-item h3,
+  .kegiatan-item h3 {
+    font-size: 16px;
+  }
+
+  .produk-section p,
+  .kegiatan-item p {
+    font-size: 14px;
+  }
+
+  .visi-misi-content h3 {
+    font-size: 18px;
+  }
+
+  .visi-misi-content p {
+    font-size: 14px;
+  }
+
+  .isi {
+    font-size: 14px;
+  }
+
+  /* Responsive images for smaller mobile */
+  .isi img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .map-container iframe {
+    height: 300px;
+  }
+
+  .kontak-item {
+    padding: 12px 15px;
+  }
+
+  .kontak-item img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .kontak-item p {
+    font-size: 13px;
+  }
+
+  .struktur-section h2 {
+    font-size: 24px;
+  }
+
+  .lokasi-section h2 {
+    font-size: 20px;
+  }
+
+  /* Hamburger menu improvements */
+  .hamburger {
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo a {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+    height: auto;
+    white-space: normal; /* Allow text wrapping on mobile */
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .produk-section h2,
+  .kegiatan-section h2,
+  .kontak-section h2 {
+    font-size: 20px;
+  }
+
+  /* Extra responsive images for very small mobile */
+  .isi img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 8px auto;
+  }
+
+  .map-container iframe {
+    height: 250px;
+  }
+
+  .kontak-item {
+    padding: 10px 12px;
+  }
+
+  .kontak-item p {
+    font-size: 12px;
+  }
+
+  .hamburger {
+    right: 10px;
+    top: 10px;
+    font-size: 18px;
+  }
+}
